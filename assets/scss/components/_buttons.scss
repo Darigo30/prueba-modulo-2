@@ -1,0 +1,37 @@
+.navigation{
+    &__login{
+        &__register{
+            background-color:$ballblue;
+            color: $white;
+            width: 100%;
+            padding: 5px 10px;
+            display: block;
+            text-align: center;
+            transition: all 1s linear;
+        }
+        &__register:hover{
+           background-color: $bluelagoon;
+        }
+        &__register:focus{
+            background-color: $lavendergray;
+        }
+    }
+}
+.card-body{
+    .btn-premium{
+        background-color:$ballblue;
+        color: $white;
+        width: 100%;
+        padding: 12px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        transition: all 1s linear;
+        &:hover{
+            background-color: $bluelagoon;
+        }
+        &:focus{
+            background-color: $lavendergray;
+        }
+    }
+}

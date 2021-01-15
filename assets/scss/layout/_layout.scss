@@ -1,0 +1,11 @@
+@import 'nav';
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'forms';
+
+.grilla{
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: 1fr;
+}

@@ -1,0 +1,44 @@
+h1, h2, h3{
+    color: $raisingblack;
+    font-size: $xxxx-large;
+    font-family: $raleway;
+    font-weight: $bold;
+}
+h2{
+    font-size: $xxx-large;
+}
+h3{
+    font-size: $x-large;
+    margin-bottom: 20px;
+}
+p{
+    color: $onyx;
+    font-size: $medium;
+    font-family: $opensans;
+    font-weight: $regular;
+    line-height: 30px;
+}
+
+@media (max-width: 991px) {
+    h1{
+        font-size: $xx-large;
+    }
+}
+@media (max-width: 767px) {
+    h1{
+        font-size: $x-large;
+    }
+    h2{
+        padding: 0 10px;
+        font-size: x-large;
+    }
+    h3{
+        font-size: $large;
+        margin: 20px 0 20px;
+    }
+    p{
+        font-size: $x-small;
+        line-height: 20px;
+    }
+}
+

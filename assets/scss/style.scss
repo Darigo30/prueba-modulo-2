@@ -1,0 +1,29 @@
+// Vendor
+@import 'vendor/bootstrap/bootstrap.scss';
+
+// Abstract
+@import 'abstract/functions';
+@import 'abstract/mixins';
+@import 'abstract/placeholders';
+@import 'abstract/variables';
+
+// Base
+@import 'base/base';
+@import 'base/animation';
+
+// Layout
+@import 'layout/layout';
+@import 'layout/precios';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/nav';
+@import 'layout/precios';
+
+
+// Components
+@import 'components/buttons';
+@import 'components/carousel';
+
+// Pages
+@import 'pages/pages';

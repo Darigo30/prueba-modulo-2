@@ -1,0 +1,61 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    &__logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__lista{
+        display: flex;
+        list-style: none;
+        cursor: pointer;
+        font-family: $raleway;
+        font-weight: $regular;
+        li{
+            padding: 0 10px;
+        }
+    }
+    &__login{
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-family: $raleway;
+            font-weight: $regular;
+        }
+        li{
+            padding: 0 10px;
+            a{
+                text-decoration: none;
+                color: $white;
+            }
+        }
+        i{
+            display: none;
+        }
+    }
+}
+
+
+
+// Medias Querys
+@media (max-width: 767px) {
+    .navigation{
+        &__login{
+            li{
+                display: none;
+            }
+            i{
+                display: block;
+                font-size: $x-large;
+            }
+        }
+        &__lista{
+            display: none;
+        }
+    }
+}

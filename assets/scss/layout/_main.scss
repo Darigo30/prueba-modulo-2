@@ -1,0 +1,50 @@
+.tit-carac{
+    text-align: center;
+}
+.content-carat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    &__barras{
+        width: 50%;
+        text-align: center;
+    }
+    &__estadis{
+        width: 50%;
+        padding: 0 20px;
+        p{
+            padding: 0px 160px 0 0;
+        }
+    }
+}
+
+
+// Medias Querys
+@media (max-width: 991px) {
+    .content-carat{
+        &__estadis{
+            p{
+                padding: 0px 10px 0 0;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .content-carat{
+        display: inherit;
+        padding: 0 10px 0 0;
+        &__barras svg{
+            width: 270px;
+        }
+        &__estadis{
+            width: 100%;
+            p{
+                padding: 0;
+            }
+        }
+    }
+    .tit-carac{
+        text-align: initial;
+    }
+}

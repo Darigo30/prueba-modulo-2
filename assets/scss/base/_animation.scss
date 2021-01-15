@@ -1,0 +1,41 @@
+//Animaciones
+@keyframes move {
+    0% {top: 200px;}
+    25%  {top: 100px;}
+    75%  {top: 50px;}
+    100% {top: 0px; fill: #f4baae;}
+}
+
+.a-bar, .b-bar{
+    fill: #ee9480;
+    animation: move 5s ease-in 3s infinite;
+    position: relative;
+}
+.b-bar{
+    fill: #2AB7CA;
+}
+//Transiciones
+.bg-header{
+    transition-property: linear;
+    transition-duration: 5s;
+    transition-delay: 1s;
+        &__contenido:hover {
+        width: 300px;
+        }
+}
+.navigation{
+    &__lista{
+        transition: all 1s linear;
+    }
+    &__lista:hover li{
+        color:  $lavendergray;
+    }
+}
+h3:hover{
+    color: $ballblue;
+    transition: all 1s linear;
+}
+.bg-precios h2:hover{
+    color: $ballblue;
+    transition: all 1s linear;
+}
